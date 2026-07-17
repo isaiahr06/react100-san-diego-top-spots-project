@@ -2,7 +2,7 @@ const TopSpot = ({ name, description, location }) => {
   const mapLink = `https://maps.google.com/?q=${location[0]},${location[1]}`;
 
   return (
-    <div data-testid="topspot" className="card m-3" style={{ width: "18rem" }}>
+    <div data-testid="topspot" className="card" style={{ width: "18rem" }}>
       <div className="card-body">
         <h4 className="card-title">{name}</h4>
 
